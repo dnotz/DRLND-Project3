@@ -7,6 +7,8 @@
 ## Introduction
 
 This is the third project of the [Deep Reinforcement Learning Nanodegree (DRLND)](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893). For this project, we train two agents control rackets to play tennis.
+We choose to implement a simplified variation of 
+ [Multi-Agent Deep Deterministic Policy Gradient (MADDPG)](https://papers.nips.cc/paper/7217-multi-agent-actor-critic-for-mixed-cooperative-competitive-environments.pdf), which is based on the [Deep Deterministic Policy Gradient (DDPG)](https://arxiv.org/pdf/1509.02971.pdf) algorithm.
 
 ![Trained Agent][image1]
 
@@ -40,7 +42,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 ## Instructions
 
-Open the notebook [`Tennis.ipynb`](Tennis.ipynb), choose the 'drlnd' kernel and run all cells to train the agent to solve the Tennis environment!
+Open the notebook [`Tennis.ipynb`](Tennis.ipynb), choose the `drlnd` kernel and run all cells to train the agent to solve the Tennis environment!
 The notebook imports Python modules for agent and network definition, which can be found in the `agents` and `networks` directories.
 
 ## Report
